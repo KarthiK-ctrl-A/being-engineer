@@ -40,7 +40,7 @@ export const Pane = styled.div`
 
     @media(max-width: 1000px){
         width: 100%;
-        padding 0 45px;
+        padding: 0 45px;
         text-align: center;
     }
 `;
@@ -69,6 +69,7 @@ export const SubTitle = styled.h2`
 
 export const Image = styled.img`
   max-width: 100%;
+  paddding: 1000px 100%;
   height: auto;
   box-shadow: 0px 0px 30px #000000;
 `;
