@@ -2,24 +2,24 @@
     {
       "id": 1,
       "title": "Use any device",
-      "subTitle": "Watch on Dekstop,Laptop,Mobile..",
-      "image": "/images/home-tv.jpg",
+      "subTitle": "Stream on Dekstop,Laptop,Mobile..",
+      "image": "/images/global-cdn.svg",
       "alt": "Tiger King on Netflix",
       "direction": "row"
     },
     {
       "id": 2,
-      "title": "Download your programmes to watch on the go.",
-      "subTitle": "Save your data and watch all your favourites offline.",
-      "image": "/images/home-mobile.jpg",
+      "title": "Search and watch your programmes on the go.",
+      "subTitle": "Save and watch all your favourites .",
+      "image": "/images/classic.png",
       "alt": "Watch on mobile",
       "direction": "row-reverse"
     },
     {
       "id": 3,
       "title": "Watch everywhere.",
-      "subTitle": "Stream unlimited content  on your phone, laptop paying!",
-      "image": "/images/social-icon.svg",
+      "subTitle": "Stream unlimited content for Free!",
+      "image": "/images/watch.png",
       "alt": "Money Heist on Netflix",
       "direction": "row"
     }

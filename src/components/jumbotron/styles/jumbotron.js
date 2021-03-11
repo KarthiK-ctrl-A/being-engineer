@@ -71,5 +71,5 @@ export const Image = styled.img`
   max-width: 100%;
   paddding: 1000px 100%;
   height: auto;
-  box-shadow: 0px 0px 30px #000000;
+  
 `;
