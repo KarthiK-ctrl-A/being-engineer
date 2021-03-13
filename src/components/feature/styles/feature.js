@@ -17,6 +17,12 @@ export const Title = styled.h1`
 
     @media (max-width: 600px) {
         font-size: 35px;
+        text-align: center;
+    }
+
+    @media (max-width: 400px) {
+        font-size: 30px;
+        text-align: center;
     }
 `;
 
@@ -27,7 +33,8 @@ export const SubTitle = styled.h2`
     font-weight: normal;
     margin: 16px auto;
 
-    @media (max-widht: 600px) {
+    @media (max-width: 600px) {
     font-size: 18px;
+    text-align: center;
 }
 `;

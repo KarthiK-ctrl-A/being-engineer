@@ -20,10 +20,18 @@ export const Input = styled.input`
     max-width: 450px;
     width: 100%;
     border: 0;
-    padding: 10px;
+    padding: 5px;
     height: 70px;
     box-size: border-box;
+    align: center;
 
+    @media (max-width: 1000px) {
+        height: 40px;
+    }
+    
+    @media (max-width: 400px) {
+        height: 30px;
+    }
 
 `;
 
@@ -32,7 +40,7 @@ export const Button = styled.button`
     display: flex;
     color: white;
     align-items: center;
-    height: 90px;
+    height: 80px;
     background: #e50914;
     text-transform: uppercase;
     padding: 0 32px;
@@ -46,9 +54,16 @@ export const Button = styled.button`
 
     @media (max-width: 1000px) {
         height: 50px;
-        font-size: 16p;
+        font-size: 16px;
         margin-top: 20px;
-        font-wight: bold;
+        font-weight: bold;
+    }
+
+    @media (max-width: 600px) {
+        height: 40px;
+        font-size: 16px;
+        margin-top: 20px;
+        font-weight: bold;
     }
 
     img{
