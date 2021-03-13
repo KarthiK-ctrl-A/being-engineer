@@ -41,7 +41,7 @@ export const Button = styled.button`
     cursor: pointer;
 
     &:hover {
-        background: #f40612;
+        background: #112D37;
     }    
 
     @media (max-width: 1000px) {
@@ -67,6 +67,7 @@ export const Text = styled.p`
 
     font-size: 19.2px;
     color: white;
+    flex-direction: column;
     text-align: center;
 
     @media (max-width: 1000px) {
