@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/being-engineer/static/js/main.980b4707.chunk.js",
+    "main.js.map": "/being-engineer/static/js/main.980b4707.chunk.js.map",
+    "runtime-main.js": "/being-engineer/static/js/runtime-main.5fcb0fcb.js",
+    "runtime-main.js.map": "/being-engineer/static/js/runtime-main.5fcb0fcb.js.map",
+    "static/css/2.679831fc.chunk.css": "/being-engineer/static/css/2.679831fc.chunk.css",
+    "static/js/2.51483c34.chunk.js": "/being-engineer/static/js/2.51483c34.chunk.js",
+    "static/js/2.51483c34.chunk.js.map": "/being-engineer/static/js/2.51483c34.chunk.js.map",
+    "index.html": "/being-engineer/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/being-engineer/static/css/2.679831fc.chunk.css.map",
+    "static/js/2.51483c34.chunk.js.LICENSE.txt": "/being-engineer/static/js/2.51483c34.chunk.js.LICENSE.txt",
+    "static/media/logo.9ce28db2.svg": "/being-engineer/static/media/logo.9ce28db2.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5fcb0fcb.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.51483c34.chunk.js",
+    "static/js/main.980b4707.chunk.js"
+  ]
+}
