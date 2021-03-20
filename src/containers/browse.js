@@ -42,10 +42,10 @@ export function BrowseContainer({ slides }) {
     <>
       {loading ? <Loading src={user.photoURL} /> : <Loading.ReleaseBody />}
 
-      <Header src="joker1" dontShowOnSmallViewPort>
+      <Header src="bg-cm" dontShowOnSmallViewPort>
         <Header.Frame>
           <Header.Group>
-            <Header.Logo to={ROUTES.HOME} src={logo} alt="Netflix" />
+            <Header.Logo to={ROUTES.HOME} src={logo} alt="beingengineer" />
             <Header.TextLink active={category === 'series' ? 'true' : 'false'} onClick={() => setCategory('series')}>
               videos
             </Header.TextLink>
@@ -73,9 +73,9 @@ export function BrowseContainer({ slides }) {
         <Header.Feature>
           <Header.FeatureCallOut>Engineer</Header.FeatureCallOut>
           <Header.Text>
-            Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham
-            City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a
-            futile attempt to feel like he's part of the world around him.
+          “Someone that gets excited about
+                        things no one else cares about and
+                        solves problems you dont know.”
           </Header.Text>
           <Header.PlayButton>Play</Header.PlayButton>
         </Header.Feature>
@@ -105,6 +105,7 @@ export function BrowseContainer({ slides }) {
           </Card>
         ))}
       </Card.Group>
+      
       <FooterContainer />
     </>
   ) : (

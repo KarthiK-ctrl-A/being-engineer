@@ -456,10 +456,10 @@ export function seedDatabase(firebase) {
     });
     firebase.firestore().collection('films').add({
       id: getUUID(),
-      title: 'La La Land',
+      title: 'La La',
       description:
         'Sebastian (Ryan Gosling) and Mia (Emma Stone) are drawn together by their common desire to do what they love. But as success mounts they are faced with decisions that begin...',
-      genre: 'romance',
+      genre: 'cse',
       maturity: '15',
       slug: 'la-la-land',
     });
@@ -480,5 +480,12 @@ export function seedDatabase(firebase) {
       genre: 'romance',
       maturity: '15',
       slug: 'titanic',
+    });
+
+    firebase.firestore().collection('videos').add({
+      id: getUUID(),
+    title: 'Computer networks',
+    description: 'subject based on networking',
+  slug: 'computer networks'
     });
   }
